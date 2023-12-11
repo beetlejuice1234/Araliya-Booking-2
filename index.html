@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Araliya Hotel</title>
+    <link rel="stylesheet " href="style.css">
+    <link rel="stylesheet" href="mystyle.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+    <link rel="manifest" href="./site.webmanifest">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+   <section class="header">
+      <nav>
+        <a href="index.html"><img src="logo.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="branches.html">BRANCHES</a></li>
+                <li><a href="booking.html">BOOK NOW</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()" ></i>
+      </nav>
+   <div class="text-box">
+    <h1>Araliya Hotels & Spas</h1>
+    <p>
+        Being a flagship conglomerate that envisions to revolutionise the travel and hospitality<br> industry in Sri Lanka,
+        
+    </p>
+    <a href="" class="hero-btn">EXPLORE</a>
+
+   </div>    
+
+   </section>
+    
+  <!---branch details-->
+  <section class="course">
+    <h1>Branches</h1>
+    <p>Indulge in pure tropical bliss amidst the waves and the balmy coastlines of Sri Lanka; indulge in luxury embellished in colonial charms surrounded by misty mountains,</p>
+    <div class="row">
+        <div class="course-col">
+            <h3>Araliya Green</h3>
+            <P>Get the most out of your stay here at the emerald isle by opting for a relaxing stay with any of our lucrative special offers.
+               </P>
+        </div>
+        <div class="course-col">
+            <h3>Sudu Araliya</h3>
+            <P>Located on the quaint banks of the Parakrama Reservoir and surrounded by surreal vistas, Hotel Sudu Araliya is a premier amongst Polonnaruwa hotels!
+               </P>
+        </div>
+        <div class="course-col">
+            <h3> Araliya RED</h3>
+            <P>Indulge in pure tropical bliss amidst the waves and the balmy coastlines of Sri Lanka; indulge in luxury embellished in colonial charms surrounded by misty mountains,
+               </P>
+        </div>
+    </div>
+  </section> 
+  <!----gallery---> 
+  <section class="gallery">
+    <h1>Gallery</h1>
+    <p>Being a flagship conglomerate that envisions to revolutionise the travel and hospitality</p>
+
+    <div class="row">
+        <div class="campus-col">
+            <img src="iugig.jpg">
+            <div class="layer">
+                <h3>Araliya Green</h3>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="sudu manel.jpg">
+            <div class="layer">
+                <h3>Sudu Araliya</h3>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="red.jpg">
+            <div class="layer">
+                <h3>Araliya RED</h3>
+            </div>
+        </div>
+    </div>
+  </section>
+  
+  <!--comments-->
+  <section class="testimonials">
+    <h1>Customer Reviews</h1>
+    <p>Being a flagship conglomerate that envisions to revolutionise</p>
+    <div class="row">
+        <div class="testimonial-col">
+            <img src="profile-1.jpg">
+            <div>
+                <p>"Araliya was the best hotel"</p>
+                <h3>Copperfield</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+        </div>
+        <div class="testimonial-col">
+            <img src="profile-3.jpg">
+            <div>
+                <p>"it was a good experience"</p>
+                <h3>David</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+        </div>
+    </div>
+  </section>
+
+  <!---footer-->
+  <section class="footer">
+    <h4>About Us</h4>
+    <p>Indulge in pure tropical bliss amidst the waves and the balmy coastlines of Sri Lanka; indulge<br> in luxury embellished in colonial charms surrounded<br> by misty mountains,</p>
+    <div class="icons">
+       <a href="https://www.araliyaresorts.com/"><i class="fa fa-facebook"></i></a>
+       <a href="https://www.araliyaresorts.com/"> <i class="fa fa-twitter"></i></a>
+       <a href="https://www.araliyaresorts.com/"><i class="fa fa-instagram"></i></a>
+        <a href="https://www.araliyaresorts.com/"> <i class="fa fa-linkedin"></i></a>
+        
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by chamod jayalath</p>
+
+  </section>
+  
+  
+  
+  
+  
+   <!---------java script------>
+   <script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+   </script>
+  
+</body>
+</html>
